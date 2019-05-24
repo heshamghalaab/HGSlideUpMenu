@@ -19,6 +19,7 @@
 		9CE600D12298448E00AE8E3B /* SlideUpMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE600CF2298448E00AE8E3B /* SlideUpMenuCell.swift */; };
 		9CE600D22298448E00AE8E3B /* SlideUpMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CE600D02298448E00AE8E3B /* SlideUpMenuCell.xib */; };
 		9CE600D72298456000AE8E3B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE600D62298456000AE8E3B /* HomeViewController.swift */; };
+		9CEFA5CA229847F300C1CFF8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9CEFA5C9229847F300C1CFF8 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		9CE600CF2298448E00AE8E3B /* SlideUpMenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideUpMenuCell.swift; sourceTree = "<group>"; };
 		9CE600D02298448E00AE8E3B /* SlideUpMenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SlideUpMenuCell.xib; sourceTree = "<group>"; };
 		9CE600D62298456000AE8E3B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		9CEFA5C9229847F300C1CFF8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 		9CE6008C229843EE00AE8E3B = {
 			isa = PBXGroup;
 			children = (
+				9CEFA5C9229847F300C1CFF8 /* README.md */,
 				9CE60097229843EE00AE8E3B /* HGSlideUpMenu */,
 				9CE600AC229843F000AE8E3B /* HGSlideUpMenuTests */,
 				9CE600B7229843F000AE8E3B /* HGSlideUpMenuUITests */,
@@ -268,6 +271,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CEFA5CA229847F300C1CFF8 /* README.md in Resources */,
 				9CE600A3229843F000AE8E3B /* LaunchScreen.storyboard in Resources */,
 				9CE600A0229843F000AE8E3B /* Assets.xcassets in Resources */,
 				9CE600D22298448E00AE8E3B /* SlideUpMenuCell.xib in Resources */,
