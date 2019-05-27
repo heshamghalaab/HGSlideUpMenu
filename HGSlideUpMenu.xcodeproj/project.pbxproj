@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C4CCE78229C39920059EF36 /* HGSlideUpMenuPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4CCE77229C39920059EF36 /* HGSlideUpMenuPresenter.swift */; };
 		9C53641D229C360000652063 /* HGSlideUpTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53641C229C360000652063 /* HGSlideUpTableView.swift */; };
 		9CE60099229843EE00AE8E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE60098229843EE00AE8E3B /* AppDelegate.swift */; };
 		9CE6009E229843EE00AE8E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6009C229843EE00AE8E3B /* Main.storyboard */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C4CCE77229C39920059EF36 /* HGSlideUpMenuPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGSlideUpMenuPresenter.swift; sourceTree = "<group>"; };
 		9C53641C229C360000652063 /* HGSlideUpTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGSlideUpTableView.swift; sourceTree = "<group>"; };
 		9CE60095229843EE00AE8E3B /* HGSlideUpMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGSlideUpMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE60098229843EE00AE8E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -88,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9C4CCE76229C39770059EF36 /* HGSlideUpMenuPresenter */ = {
+			isa = PBXGroup;
+			children = (
+				9C4CCE77229C39920059EF36 /* HGSlideUpMenuPresenter.swift */,
+			);
+			path = HGSlideUpMenuPresenter;
+			sourceTree = "<group>";
+		};
 		9CE6008C229843EE00AE8E3B = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +122,7 @@
 		9CE60097229843EE00AE8E3B /* HGSlideUpMenu */ = {
 			isa = PBXGroup;
 			children = (
+				9C4CCE76229C39770059EF36 /* HGSlideUpMenuPresenter */,
 				9CE600C82298440000AE8E3B /* Model */,
 				9CE600C7229843FD00AE8E3B /* View */,
 				9CE600C6229843F700AE8E3B /* Controller */,
@@ -304,6 +315,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C4CCE78229C39920059EF36 /* HGSlideUpMenuPresenter.swift in Sources */,
 				9CE600CA2298444000AE8E3B /* Menu.swift in Sources */,
 				9CE600D12298448E00AE8E3B /* SlideUpMenuCell.swift in Sources */,
 				9CE60099229843EE00AE8E3B /* AppDelegate.swift in Sources */,

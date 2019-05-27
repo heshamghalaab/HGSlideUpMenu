@@ -8,6 +8,10 @@
 
 import UIKit
 
+protocol HGSlideUpMenuProtocol {
+    func didSelectHGSlideUpMenuRow(with row: Int)
+}
+
 class HGSlideUpMenuVC: UIViewController {
     
     // MARK: Outlets
@@ -18,9 +22,8 @@ class HGSlideUpMenuVC: UIViewController {
     
     // MARK: Properties
     var lastContentOffset: CGFloat = 0
-    var menu = [Menu](){
-        didSet{ self.tableView.reloadData() }
-    }
+    var menu = [Menu]()
+    var slideUpMenuProtocol: HGSlideUpMenuProtocol?
     
     // MARK: Override Functions
     // viewDidLoad
@@ -112,6 +115,11 @@ extension HGSlideUpMenuVC: UITableViewDelegate, UITableViewDataSource{
         cell.menuImageView.image = UIImage(named: menu[indexPath.row].imageName)
         cell.menuTitleLabel.text = menu[indexPath.row].title
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        dismissMenu()
+        slideUpMenuProtocol?.didSelectHGSlideUpMenuRow(with: indexPath.row)
     }
     
     func scrollViewDidScroll(_ scrollView: UIScrollView) {

@@ -18,8 +18,13 @@ class HomeViewController: UIViewController {
     
     // MARK: Actions
     @IBAction func onTapMore(_ sender: UIBarButtonItem) {
-        let slideUpMenuVC = HGSlideUpMenuVC(nibName: "HGSlideUpMenuVC", bundle: nil)
-        slideUpMenuVC.modalPresentationStyle = .overFullScreen
-        self.present(slideUpMenuVC, animated: false, completion: nil)
+        let presenter = HGSlideUpMenuPresenter(vc: self)
+        presenter.present(.HGSlideUpMenu(withMenu: Menu.initData()))
+    }
+}
+
+extension HomeViewController: HGSlideUpMenuProtocol{
+    func didSelectHGSlideUpMenuRow(with row: Int) {
+        print("selected row is: \(row)")
     }
 }
