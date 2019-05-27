@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C53641D229C360000652063 /* HGSlideUpTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C53641C229C360000652063 /* HGSlideUpTableView.swift */; };
 		9CE60099229843EE00AE8E3B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE60098229843EE00AE8E3B /* AppDelegate.swift */; };
 		9CE6009E229843EE00AE8E3B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6009C229843EE00AE8E3B /* Main.storyboard */; };
 		9CE600A0229843F000AE8E3B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CE6009F229843F000AE8E3B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9C53641C229C360000652063 /* HGSlideUpTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HGSlideUpTableView.swift; sourceTree = "<group>"; };
 		9CE60095229843EE00AE8E3B /* HGSlideUpMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HGSlideUpMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CE60098229843EE00AE8E3B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9CE6009D229843EE00AE8E3B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 				9CE600CC2298446B00AE8E3B /* HGSlideUpMenuVC.xib */,
 				9CE600CF2298448E00AE8E3B /* SlideUpMenuCell.swift */,
 				9CE600D02298448E00AE8E3B /* SlideUpMenuCell.xib */,
+				9C53641C229C360000652063 /* HGSlideUpTableView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -304,6 +307,7 @@
 				9CE600CA2298444000AE8E3B /* Menu.swift in Sources */,
 				9CE600D12298448E00AE8E3B /* SlideUpMenuCell.swift in Sources */,
 				9CE60099229843EE00AE8E3B /* AppDelegate.swift in Sources */,
+				9C53641D229C360000652063 /* HGSlideUpTableView.swift in Sources */,
 				9CE600CD2298446B00AE8E3B /* HGSlideUpMenuVC.swift in Sources */,
 				9CE600D72298456000AE8E3B /* HomeViewController.swift in Sources */,
 			);
